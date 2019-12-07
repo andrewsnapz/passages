@@ -203,7 +203,7 @@ class App extends React.Component {
         newPathpassages.push({...res.data[0]})
         this.setState(prevState => ({ 
         passages: newPathpassages,
-        isPathClicked: !prevState.isPathClicked 
+        isPathClicked: !prevSgittate.isPathClicked 
       }))}  
     )}
   }
